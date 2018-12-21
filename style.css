@@ -1,0 +1,61 @@
+.player-info
+{
+      padding-top: 30px;
+}
+  
+.container
+{
+    width: 90%;
+    max-width:450px;
+}
+  
+.card
+{
+      padding-right: 40px;
+      padding-left:40px;
+}
+
+.btn-wrapper
+{
+    text-align: center;
+}
+
+.player-name
+{
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.collection
+{
+    border: none;
+}
+
+.fa:hover 
+{
+    color:black;
+}
+
+.play-again, .play-again:hover
+{
+    background-color: #262525;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+
+}
+.game-board-space {
+  border: 1px solid;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+}
+.game-board-space:after {
+    content:"";
+    display: block;
+    padding-bottom: 100%;
+}
